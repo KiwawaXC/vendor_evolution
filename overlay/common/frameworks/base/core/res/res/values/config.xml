@@ -98,6 +98,8 @@
     <!-- Sets the package name for location extra packages -->
     <string-array name="config_locationExtraPackageNames">
         <item>com.google.android.gms.location.history</item>
+        <!-- OmniJaws -->
+        <item>org.omnirom.omnijaws</item>
     </string-array>
 
     <!-- Whether to show estimate in QS header. Default to false in case there's not enough
