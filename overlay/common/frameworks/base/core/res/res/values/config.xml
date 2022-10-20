@@ -100,6 +100,8 @@
         <item>com.google.android.gms.location.history</item>
         <!-- OmniJaws -->
         <item>org.omnirom.omnijaws</item>
+        <!-- SystemUI -->
+        <item>com.android.systemui</item>
     </string-array>
 
     <!-- Whether to show estimate in QS header. Default to false in case there's not enough
