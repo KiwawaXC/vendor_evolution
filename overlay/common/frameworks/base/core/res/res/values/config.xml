@@ -102,6 +102,8 @@
         <item>org.omnirom.omnijaws</item>
         <!-- SystemUI -->
         <item>com.android.systemui</item>
+        <!-- Tethering -->
+        <item>com.android.networkstack.tethering</item>
     </string-array>
 
     <!-- Whether to show estimate in QS header. Default to false in case there's not enough
