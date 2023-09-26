@@ -283,6 +283,9 @@ $(call inherit-product, vendor/bcr/bcr.mk)
 # Inherit from art config
 include vendor/evolution/config/art.mk
 
+# Inherit from LMKD config
+include vendor/evolution/config/lmkd.mk
+
 # Conditionally inherit firmware
 TARGET_SHIPS_FIRMWARE ?= false
 ifeq ($(TARGET_SHIPS_FIRMWARE),true)
