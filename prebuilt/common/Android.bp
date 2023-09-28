@@ -3,3 +3,16 @@ java_import {
     jars: ["lib/vendorAacHardwareRichtapVibrator.jar"],
     sdk_version: "current",
 }
+
+prebuilt_etc {
+    name: "init.muffyn.rc",
+    src: "etc/init/init.muffyn.rc",
+    sub_dir: "init",
+    product_specific: true,
+}
+
+sh_binary {
+    name: "init.muffyn.sh",
+    src: "bin/init.muffyn.sh",
+    product_specific: true,
+}

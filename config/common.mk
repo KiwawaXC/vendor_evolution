@@ -241,6 +241,11 @@ else
 $(call inherit-product-if-exists, vendor/partner_modules/build/mainline_modules_flatten_apex.mk)
 endif
 
+# Misc init/shell scripts
+PRODUCT_PACKAGES += \
+    init.muffyn.rc \
+    init.muffyn.sh
+
 # Inherit from audio config
 $(call inherit-product, vendor/evolution/config/audio.mk)
 
