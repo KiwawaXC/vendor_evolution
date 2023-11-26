@@ -246,6 +246,10 @@ PRODUCT_PACKAGES += \
     init.muffyn.rc \
     init.muffyn.sh
 
+# OmniJaws
+PRODUCT_PACKAGES += \
+    OmniJaws
+
 # Inherit from audio config
 $(call inherit-product, vendor/evolution/config/audio.mk)
 
