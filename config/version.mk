@@ -17,11 +17,11 @@
 #
 
 # Versioning System
-EVO_BASE_VERSION := 7.9.10
-EVO_CODENAME := Turon
+EVO_BASE_VERSION := 7.9.12
+EVO_CODENAME := Muffyn
 
 # Set all versions
-EVO_BUILD_TYPE ?= COMMUNITY
+EVO_BUILD_TYPE ?= HOMEMADE
 
 EVO_DATE_YEAR := $(shell date -u +%Y)
 EVO_DATE_MONTH := $(shell date -u +%m)
