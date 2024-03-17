@@ -17,7 +17,7 @@
 #
 
 # Versioning System
-EVO_BASE_VERSION := 7.9.12
+EVO_BASE_VERSION := 7.9.20
 EVO_CODENAME := Muffyn
 
 # Set all versions
